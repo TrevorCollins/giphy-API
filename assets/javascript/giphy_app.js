@@ -48,7 +48,7 @@ function renderButtons() {
 
         var a = $("<button>");
         a.attr("data-name", artists[i]);
-        a.addClass("artist-btn");
+        a.addClass("artist-btn btn btn-dark");
         a.text(artists[i]);
         $("#buttons").append(a);
     };
